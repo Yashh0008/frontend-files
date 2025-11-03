@@ -1,0 +1,61 @@
+question 1 : 
+
+Inline CSS: Applied directly to individual HTML elements using the `style` attribute; it affects only that specific element.
+Internal CSS: Defined inside a `<style>` tag within the `<head>` section of an HTML document; it styles only that single page.
+External CSS: Written in a separate `.css` file and linked with the `<link>` tag; it can style multiple web pages consistently.
+
+
+question 2 : 
+
+CSS selectors are patterns used to select and style specific HTML elements. They tell the browser which elements the CSS rules should apply to.
+
+Types of CSS selectors are:
+
+1. Universal selector (*) – selects all elements.
+2. Element selector – selects elements by their tag name.
+3. Class selector (.classname) – selects elements with a specific class.
+4. ID selector (#idname) – selects an element with a specific ID.
+5. Group selector (h1, p, div) – applies the same style to multiple elements.
+6. Attribute selector ([attribute=value]) – selects elements based on an attribute.
+7. Pseudo-class selector (:hover, :first-child) – selects elements based on their state.
+8. Pseudo-element selector (::before, ::after) – styles specific parts of an element.
+
+
+Question 3 : 
+
+The CSS box model is a fundamental concept that describes how every HTML element on a webpage is structured and displayed as a rectangular box. It determines how elements are spaced, sized, and positioned in relation to one another. The box model consists of four main components that define the total space an element occupies.
+
+The components of the CSS box model are:
+
+1. Content: The innermost part where text or images appear.
+2. **Padding: The space between the content and the element’s border.
+3. Border: A line that surrounds the padding and content, separating the element from others.
+4. Margin: The outermost space that creates distance between the element and surrounding elements.
+
+Question 4 : 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: darkblue;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <h1>Basic Text Styling Using CSS</h1>
+  <p>This paragraph demonstrates how CSS can be used to style text by changing font, color, size, alignment, and decoration to improve the design of a webpage.</p>
+</body>
+</html>
